@@ -1,6 +1,7 @@
 #field {
     display: flex;
     flex-direction: row;
+    position: relative;
 }
 
 #leftMoveZone {
@@ -50,25 +51,65 @@
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background-color: gold;
+    background-color: orchid;
     position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-#field{
+
+#field {
     width: 800px;
     height: 400px;
-    background: grey;
+    background: #83c7e4;
 }
-#ball{
+
+#ball {
     left: 400px;
     top: 200px;
 }
-#upWall{
+
+#topWall {
     background: black;
     width: 800px;
     height: 20px;
 }
-#downWall{
+
+#bottomWall {
     background: black;
     width: 800px;
     height: 20px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter {
+    width: 800px;
+    height: 100px;
+    background: royalblue;
+    border: 20px solid firebrick;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.score {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.fieldWW {
+    position: relative;
+}
+
+.lvl {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
