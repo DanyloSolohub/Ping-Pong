@@ -155,7 +155,7 @@ export default function App() {
     return (
         <div className={'main'}>
             <div className={'counter'}><span
-                className={'score'}> wow: {repel} {Math.round(Math.hypot(nextY, nextX))}   </span></div>
+                className={'score'}> points: {repel} speed: {Math.round(Math.hypot(nextY, nextX))} </span></div>
             <div className={'fieldWW'}>
                 <div id={'topWall'}>
                 </div>
@@ -167,7 +167,7 @@ export default function App() {
                     </div>
                     <div className={'ballStart'}>
                         <div id={'ball'}>
-                           <div style={{fontWeight:'bold'}}>{nextY}</div>
+                            <div style={{fontWeight: 'bold'}}>{nextY}</div>
                         </div>
                     </div>
                     <div id={'rightField'}>
