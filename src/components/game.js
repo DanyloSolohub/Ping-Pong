@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from "react";
-import RecordTable from "./RecordTable";
+import RecordTable from "./recordTable";
 import './gameCss.css'
 
 
