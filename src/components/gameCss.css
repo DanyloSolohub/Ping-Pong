@@ -1,0 +1,121 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #2c3138;
+}
+#field {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+#leftMoveZone {
+    width: 20px;
+    height: 400px;
+    position: relative;
+    float: left;
+}
+
+#rightMoveZone {
+    width: 20px;
+    height: 400px;
+    position: relative;
+    float: right;
+}
+
+#leftPlatform {
+    position: absolute;
+    height: 100px;
+    width: 20px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+#rightPlatform {
+    position: absolute;
+    height: 100px;
+    width: 20px;
+    background-color: black;
+}
+
+#leftField {
+    width: 50%;
+    height: 400px;
+}
+
+#rightField {
+    width: 50%;
+    height: 400px;
+}
+
+.ballStart {
+    height: 400px;
+
+}
+
+#ball {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: orchid;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#field {
+    width: 800px;
+    height: 400px;
+    background: #83c7e4;
+}
+
+#ball {
+    left: 400px;
+    top: 200px;
+}
+
+#topWall {
+    background: black;
+    width: 800px;
+    height: 20px;
+}
+
+#bottomWall {
+    background: black;
+    width: 800px;
+    height: 20px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter {
+    width: 800px;
+    height: 100px;
+    background: royalblue;
+    border: 20px solid firebrick;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.score {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.fieldWW {
+    position: relative;
+}
+
+.lvl {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
